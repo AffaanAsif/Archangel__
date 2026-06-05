@@ -330,7 +330,7 @@ HOURS     UTC-0 / Always On
 REACH     Worldwide Operations
 ```
 
-**Start a project →** Book a Protocol Session at [archangel.org](https://archangel.org)
+**Start a project →** Book a Protocol Session at [archangel.org]([https://archangel.org](https://archangel-agency.vercel.app/))
 
 ---
 
