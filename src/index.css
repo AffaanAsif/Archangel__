@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-arch-bg: var(--bg);
+    --color-arch-surface: var(--surface);
+    --color-arch-primary: var(--primary);
+    --color-arch-secondary: var(--secondary);
+    --color-arch-body: var(--body);
+    --color-arch-accent: var(--accent);
+    --color-arch-border: var(--border);
+
+    --font-display: "DotGothic16", monospace;
+    --font-body: "DotGothic16", monospace;
+    --font-sans: "DotGothic16", monospace;
+    --font-mono: "DotGothic16", monospace;
+}
+
+:root {
+  /* Strict Two Color Theme: Black & White/Gray LED Theme */
+  --bg: #000000;
+  --surface: #000000;
+  --primary: #ffffff;
+  --secondary: #555555;
+  --body: #aaaaaa;
+  --accent: #ffffff;
+  --border: #222222;
+  --border-light: #333333;
+  --hover-bg: #111111;
+  
+  --wireframe-stroke: #ffffff;
+  --wireframe-fill-1: #000000;
+  --wireframe-fill-2: rgba(255, 255, 255, 0.1);
+  --wireframe-fill-3: rgba(255, 255, 255, 0.2);
+}
+
+:root.light {
+  /* Minimalist light theme */
+  --bg: #ffffff;
+  --surface: #f0f0f0;
+  --primary: #000000;
+  --secondary: #555555;
+  --body: #222222;
+  --accent: #000000;
+  --border: rgba(0, 0, 0, 0.8);
+  --border-light: rgba(0, 0, 0, 1);
+  --hover-bg: rgba(0, 0, 0, 0.1);
+
+  --wireframe-stroke: rgba(0, 0, 0, 1);
+  --wireframe-fill-1: #ffffff;
+  --wireframe-fill-2: #eeeeee;
+  --wireframe-fill-3: #dddddd;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--primary);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.01em;
+}
+
